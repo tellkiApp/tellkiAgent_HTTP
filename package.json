@@ -1,0 +1,18 @@
+{
+	"author": "guberni",
+	"name": "tellki-http-monitor",
+	"description": "Tellki http monitor for retrieving metrics from http(s) sites",
+	"version": "0.0.1",
+	"keywords": ["tellki","monitor","http", "real time"],
+	"homepage": "www.tellki.com",
+	"repository" : { 
+		"type" : "git", "url" : "https://github.com/tellkiApp/tellkiAgent_HTTP.git"  
+	},
+	"main": "./lib/http_monitor",
+	"bin": {
+		"http-monitor": "./bin/http-monitor"
+	},
+	"engines": {
+		"node": "*"
+	}
+}
