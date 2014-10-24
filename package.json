@@ -2,7 +2,7 @@
 	"author": "guberni",
 	"name": "tellki-http-monitor",
 	"description": "Tellki http monitor for retrieving metrics from http(s) sites",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"keywords": ["tellki","monitor","http", "real time"],
 	"homepage": "www.tellki.com",
 	"repository" : { 
@@ -10,7 +10,7 @@
 	},
 	"main": "./lib/http_monitor",
 	"bin": {
-		"http-monitor": "./bin/http-monitor"
+		"tellki-http-monitor": "./bin/tellki-http-monitor"
 	},
 	"engines": {
 		"node": "*"
